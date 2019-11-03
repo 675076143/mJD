@@ -84,7 +84,86 @@ header{
 }
 
 main{
+  background-color: rgb(186,38,38);
   .main-ad{
+
+  }
+  .kill{
+    background-color: white;
+    margin: 3px 10px 5px 10px;
+    border-radius: 10px;
+    .kill-header{
+      display: flex;
+      span:nth-child(1){
+        display: flex;
+        align-items: center;
+        flex: 80%;
+        .kill-img{
+          margin-left: 10px;
+          flex: 40%;
+          max-width: 120px;
+          height: 50px;
+          background:url("../imgs/kill.jpg") no-repeat left 50%;
+          background-size: 100%;
+        }
+        .kill-time{
+          flex: 20%;
+          font-size: 13px;
+        }
+        .kill-time-left{
+          flex: 40%;
+          font-size: 13px;
+        }
+      }
+      span:nth-child(2){
+        flex: 20%;
+        display: flex;
+        align-items: center;
+        color: red;
+        div{
+          width: 100%;
+          text-align: right;
+          font-size: 12px;
+        }
+        div::after{
+          content: ">";
+          padding: 2px 4px;
+          width: 25px;
+          height: 25px;
+          background-color: red;
+          color: white;
+          text-align: center;
+          font-size: 12px;
+          border-radius: 50px;
+          margin: 0px 10px 0px 2px;
+        }
+      }
+
+    }
+    .kill-content{
+      display: flex;
+      overflow: hidden;
+      a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 100px;
+        margin-left: 10px;
+        img{
+          width: 100%;
+        }
+        .price{
+          color: red;
+          font-size: 18px;
+          font-weight: bold;
+        }
+        .origin-price{
+          color: gray;
+          font-weight: lighter;
+          text-decoration: line-through;
+        }
+      }
+    }
 
   }
 }
