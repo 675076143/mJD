@@ -291,4 +291,79 @@ main .yard .yard-content .yard-item:nth-child(n+3) h4 {
   color: black;
   margin-bottom: 0;
 }
+main .everyday .everyday-header {
+  width: 100%;
+}
+main .everyday .everyday-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+main .everyday .everyday-content .everyday-item {
+  flex: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #ba2626;
+}
+main .everyday .everyday-content .everyday-item h4 {
+  background: linear-gradient(to bottom right, red, deeppink);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+main .everyday .everyday-content .everyday-item h6 {
+  margin-bottom: 0;
+}
+main .everyday .everyday-content .everyday-item img {
+  width: 80%;
+  padding: 10px;
+}
+main .everyday .everyday-content .everyday-item:nth-child(1),
+main .everyday .everyday-content .everyday-item:nth-child(2),
+main .everyday .everyday-content .everyday-item:nth-child(3),
+main .everyday .everyday-content .everyday-item:nth-child(5),
+main .everyday .everyday-content .everyday-item:nth-child(6),
+main .everyday .everyday-content .everyday-item:nth-child(7) {
+  border-right: 1px solid #ba2626;
+}
+main .everyday .everyday-content .everyday-item:nth-child(2) h4 {
+  background: linear-gradient(to bottom right, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+main .everyday .everyday-content .everyday-item:nth-child(3) h4 {
+  background: linear-gradient(to bottom right, orange, hotpink);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+main .everyday .everyday-content .everyday-item:nth-child(4) h4 {
+  background: linear-gradient(to bottom right, red, deeppink);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+main .everyday .everyday-content .everyday-item:nth-child(5) h4 {
+  background: linear-gradient(to bottom right, mediumpurple, orangered);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+main .everyday .everyday-content .everyday-item:nth-child(6) h4 {
+  background: linear-gradient(to bottom right, lightseagreen, dodgerblue);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+main .everyday .everyday-content .everyday-item:nth-child(7) h4 {
+  background: linear-gradient(to bottom right, orange, deeppink);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+main .everyday .everyday-content .everyday-item:nth-child(8) h4 {
+  background: linear-gradient(to bottom right, lightseagreen, greenyellow);
+  -webkit-background-clip: text;
+  color: transparent;
+}
 /*# sourceMappingURL=index.css.map */

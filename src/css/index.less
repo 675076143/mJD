@@ -315,4 +315,95 @@ main{
     }
 
   }
+
+  .everyday{
+    .everyday-header{
+      width: 100%;
+    }
+    .everyday-content{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 10px;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: white;
+      .everyday-item{
+        flex: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid rgb(186,38,38);
+        h4{
+          background: linear-gradient(to bottom right, red,deeppink);
+          -webkit-background-clip: text;
+          color: transparent;
+          font-weight: bold;
+          margin-bottom: 0;
+        }
+        h6{
+          margin-bottom: 0;
+        }
+        img{
+          width: 80%;
+          padding: 10px;
+        }
+      }
+      .everyday-item:nth-child(1),.everyday-item:nth-child(2),
+      .everyday-item:nth-child(3),.everyday-item:nth-child(5),
+      .everyday-item:nth-child(6),.everyday-item:nth-child(7){
+        border-right: 1px solid rgb(186,38,38);
+      }
+      .everyday-item:nth-child(2){
+        h4{
+          background: linear-gradient(to bottom right, orange,red);
+          -webkit-background-clip: text;
+          color: transparent;
+        }
+      }
+      .everyday-item:nth-child(3){
+        h4{
+          background: linear-gradient(to bottom right, orange,hotpink);
+          -webkit-background-clip: text;
+          color: transparent;
+        }
+      }
+      .everyday-item:nth-child(4){
+        h4{
+          background: linear-gradient(to bottom right, red,deeppink);
+          -webkit-background-clip: text;
+          color: transparent;
+        }
+      }
+      .everyday-item:nth-child(5){
+        h4{
+          background: linear-gradient(to bottom right, mediumpurple,orangered);
+          -webkit-background-clip: text;
+          color: transparent;
+        }
+      }
+      .everyday-item:nth-child(6){
+        h4{
+          background: linear-gradient(to bottom right, lightseagreen,dodgerblue);
+          -webkit-background-clip: text;
+          color: transparent;
+        }
+      }
+      .everyday-item:nth-child(7){
+        h4{
+          background: linear-gradient(to bottom right, orange,deeppink);
+          -webkit-background-clip: text;
+          color: transparent;
+        }
+      }
+      .everyday-item:nth-child(8){
+        h4{
+          background: linear-gradient(to bottom right, lightseagreen,greenyellow);
+          -webkit-background-clip: text;
+          color: transparent;
+        }
+      }
+
+
+    }
+  }
 }
