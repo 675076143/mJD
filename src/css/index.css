@@ -48,7 +48,7 @@ header a {
 .carousel {
   border-radius: 10px;
   overflow: hidden;
-  margin: 3px 10px 5px 10px;
+  margin: 10px;
 }
 .top-nav {
   min-width: 350px;
@@ -152,5 +152,15 @@ main .kill .kill-content a .origin-price {
   color: gray;
   font-weight: lighter;
   text-decoration: line-through;
+}
+main .new-user {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: blue;
+  margin: 10px;
+}
+main .new-user img {
+  width: 50%;
 }
 /*# sourceMappingURL=index.css.map */
