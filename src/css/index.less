@@ -3,12 +3,34 @@ body {
   max-width: 540px;
   min-width: 320px;
   -webkit-tap-highlight-color: transparent;
+
+  .body-background{
+    position: relative;
+    z-index: -99;
+    width: 100%;
+    max-width: 540px;
+    height: 150px;
+    overflow: hidden;
+    .background-circle{
+      position: absolute;
+      left: 50%;
+      margin-left: -500px;
+      margin-top: -800px;
+      display: block;
+      background-color: red;
+      width: 1000px;
+      height: 1000px;
+      border-radius: 500px;
+    }
+  }
+
 }
 
 header{
   background-color: red;
   display: flex;
   padding: 8px;
+  margin-top: -150px;
   img{
   }
   input{
@@ -19,12 +41,50 @@ header{
     margin-right: 5px;
     outline: none;
     border: 0px;
-    border-radius: 10px;
+    border-radius: 50px;
     padding-top: 5px;
     padding-left: 30px;
   }
   a{
     text-decoration: none;
     color: white;
+  }
+}
+
+.carousel{
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 3px 10px 5px 10px;
+}
+
+.top-nav {
+  min-width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 20px;
+  margin-bottom: 0px;
+  list-style: none;
+  justify-content: space-between;
+  li{
+    flex: 19%;
+    //padding: 10px 20px;
+    a{
+      padding: 5px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 13px;
+      color: black;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+main{
+  .main-ad{
+
   }
 }

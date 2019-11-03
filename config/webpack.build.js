@@ -41,7 +41,7 @@ module.exports = {
             //使用url-loader打包图片文件
             // (相比file-loader能将一定数值下的图片转为base64的格式)
             {
-                test: /\.(png|jpg|gif)$/,
+                test: /\.(png|jpg|gif|webp)$/,
                 use: [
                     {
                         loader: 'url-loader',
