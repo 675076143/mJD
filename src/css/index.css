@@ -163,4 +163,44 @@ main .new-user {
 main .new-user img {
   width: 50%;
 }
+main .floor {
+  display: flex;
+}
+main .floor img {
+  width: 33%;
+}
+main .recommend .recommend-header {
+  width: 100%;
+}
+main .recommend .recommend-content {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+main .recommend .recommend-content .recommend-item {
+  flex: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 1px;
+}
+main .recommend .recommend-content .recommend-item img {
+  border-radius: 10px;
+  width: 100%;
+}
+main .recommend .recommend-content .recommend-item:nth-child(1) {
+  background: linear-gradient(to bottom right, orange, orangered);
+}
+main .recommend .recommend-content .recommend-item:nth-child(2) {
+  background: linear-gradient(to bottom right, lightskyblue, deepskyblue);
+}
+main .recommend .recommend-content .recommend-item:nth-child(3) {
+  background: linear-gradient(to bottom right, pink, hotpink);
+}
+main .recommend .recommend-content .recommend-item:nth-child(4) {
+  background: linear-gradient(to bottom right, cornflowerblue, dodgerblue);
+}
 /*# sourceMappingURL=index.css.map */

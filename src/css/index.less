@@ -177,4 +177,49 @@ main{
       width: 50%;
     }
   }
+
+  .floor{
+    display: flex;
+    img{
+      width: 33%;
+    }
+  }
+
+  .recommend{
+    .recommend-header{
+      width: 100%;
+    }
+    .recommend-content{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      padding: 10px;
+      .recommend-item{
+        flex: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 1px;
+        img{
+          border-radius: 10px;
+          width: 100%;
+        }
+      }
+      .recommend-item:nth-child(1){
+        background: linear-gradient(to bottom right, orange, orangered);
+      }
+      .recommend-item:nth-child(2){
+        background: linear-gradient(to bottom right, lightskyblue, deepskyblue);
+      }
+      .recommend-item:nth-child(3){
+        background: linear-gradient(to bottom right, pink, hotpink);
+      }
+      .recommend-item:nth-child(4){
+        background: linear-gradient(to bottom right, cornflowerblue, dodgerblue);
+      }
+    }
+
+  }
 }
