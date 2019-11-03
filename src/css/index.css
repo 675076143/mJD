@@ -448,6 +448,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   color: #b9b9b9;
+  margin-bottom: 110px;
 }
 footer section {
   flex: 100%;
