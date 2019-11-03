@@ -435,4 +435,53 @@ main .part-two .recommend-for-you .recommend-for-you-content .recommend-for-you-
   font-size: 12px;
   padding: 2px 5px;
 }
+footer {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  color: #b9b9b9;
+}
+footer section {
+  flex: 100%;
+  display: flex;
+}
+footer section:nth-child(1) {
+  justify-content: center;
+  margin-top: 10px;
+}
+footer section:nth-child(1) div {
+  flex: 25%;
+  text-align: center;
+  border-right: 1px solid #b9b9b9;
+}
+footer section:nth-child(1) div:nth-child(4) {
+  border-right: 0;
+}
+footer section:nth-child(2) {
+  border-top: 1px solid #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
+  padding: 5px 0;
+}
+footer section:nth-child(2) div {
+  flex: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer section:nth-child(2) div img {
+  border: 1px solid #b9b9b9;
+  border-radius: 50px;
+  padding: 2px;
+}
+footer section:nth-child(2) .app .app-img {
+  border: 1px solid #b9b9b9;
+  text-align: center;
+  border-radius: 50px;
+  padding-top: 4px;
+}
+footer section:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
 /*# sourceMappingURL=index.css.map */
