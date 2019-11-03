@@ -5,15 +5,14 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 body .body-background {
-  position: relative;
   z-index: -99;
   width: 100%;
   max-width: 540px;
   height: 150px;
   overflow: hidden;
+  border: 1px solid green;
 }
 body .body-background .background-circle {
-  position: absolute;
   left: 50%;
   margin-left: -500px;
   margin-top: -800px;
@@ -24,10 +23,13 @@ body .body-background .background-circle {
   border-radius: 500px;
 }
 header {
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  width: 100%;
   background-color: red;
   display: flex;
   padding: 8px;
-  margin-top: -150px;
 }
 header input {
   background: url("../imgs/search_24px.png") no-repeat white 5px;
@@ -48,7 +50,13 @@ header a {
 .carousel {
   border-radius: 10px;
   overflow: hidden;
-  margin: 10px;
+  margin: 30px 0 0 0;
+  padding: 0 10px;
+  background: linear-gradient(red, #ba2626);
+}
+.carousel .my-carousel-item {
+  border-radius: 10px;
+  overflow: hidden;
 }
 .top-nav {
   min-width: 350px;
@@ -483,5 +491,23 @@ footer section:nth-child(3) {
   display: flex;
   justify-content: center;
   font-size: 12px;
+}
+.menu {
+  position: fixed;
+  bottom: 0;
+  z-index: 200;
+  background-color: white;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.menu ul li {
+  flex: 20%;
+}
+.menu ul li a img {
+  width: 100%;
 }
 /*# sourceMappingURL=index.css.map */
