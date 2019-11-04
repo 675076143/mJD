@@ -52,7 +52,7 @@ module.exports = {
                         options: {
                             limit: 8192,//小于8KB的图片，转换为base64
                             outputPath: 'img',//输出的路径
-                            publicPath:'../dist/img',//资源路径
+                            publicPath:'./img',//资源路径
                             name:'[hash:5].[ext]'//图片名称(哈希值前五位)
                         }
                     }
